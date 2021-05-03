@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+-<bean autowire="byName" class="com.Patient" id="patient">
+
+<property value="345" name="patientId"/>
+
+<property value="vdg" name="name"/>
+
+<property value="5.4" name="patientHeight"/>
+
+<property value="53" name="patientWeight"/>
+
+</bean>
+
+</beans>
